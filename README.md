@@ -2,11 +2,11 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
     <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.webp">
-    <img alt="Aayush Thakur. I build products people use. Zen-Z: live on Google Play, 150+ users in 2 days." src="assets/banner-dark.webp" width="100%">
+    <img alt="Aayush Thakur, founder of Zen-Z, live on Google Play: 150+ users in 2 days, ₹33K+ revenue." src="assets/banner-dark.webp" width="100%">
   </picture>
 </a>
 
-I'm the founder and solo engineer of **[Zen-Z](https://zen-z.site)**, a campus app live on Google Play.<br>
+I'm the founder and solo engineer of **[Zen-Z](https://zen-z.site)**, a campus app live on Google Play: **150+ users in its first 2 days and ₹33K+ in revenue**.<br>
 B.Tech CSE at JNU Jaipur, class of 2028.<br>
 Open to remote or Jaipur internships in full-stack, mobile and AI/product engineering.
 
@@ -16,7 +16,7 @@ Open to remote or Jaipur internships in full-stack, mobile and AI/product engine
   <tr>
     <td width="50%" valign="top">
       <a href="https://aayushthakur.vercel.app/work/zen-z"><img src="assets/work/zen-z-app.webp" alt="Zen-Z app: the home screen and the pick-a-game screen on two phones over a red background"></a>
-      <br><b>Zen-Z</b>: puts college students into small groups for cafés, dinners, movies and sports. 150+ users in 2 days.
+      <br><b>Zen-Z</b>: 150+ users in 2 days, ₹33K+ revenue. Small-group meetups for college students. Built solo, with an 11-job CI.
       <br><a href="https://play.google.com/store/apps/details?id=com.campussocial.app">Google Play</a> · <a href="https://github.com/aayush-t-exe/Zen-Z">Code</a> · <a href="https://aayushthakur.vercel.app/work/zen-z">Case study</a>
     </td>
     <td width="50%" valign="top">
@@ -28,7 +28,7 @@ Open to remote or Jaipur internships in full-stack, mobile and AI/product engine
   <tr>
     <td width="50%" valign="top">
       <a href="https://aayushthakur.vercel.app/work/prelimsdaily"><img src="assets/work/prelimsdaily.webp" alt="PrelimsDaily: the Today, quiz and result screens on three phones"></a>
-      <br><b>PrelimsDaily</b>: a UPSC daily-practice app, built in 1 day. Streaks, smart reminders, works offline, 72 tests.
+      <br><b>PrelimsDaily</b>: built in 1 day, with 72 tests. A UPSC daily-practice app: streaks, smart reminders, works offline.
       <br><a href="https://github.com/aayush-t-exe/prelims-daily">Code</a> · <a href="https://aayushthakur.vercel.app/work/prelimsdaily">Case study</a>
     </td>
     <td width="50%" valign="top">

@@ -59,22 +59,28 @@ const browser = (src, url, style) =>
   `<div class="browser" style="${style}"><div class="bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span>${url}</span></div><img src="${img(src)}"></div>`;
 const z = (style) => `<img src="${img(P("v4/brand/z-glossy.webp"))}" style="position:absolute;${style}">`;
 
-// ── Banner (1280×360): name, one line, the red Z. Dark and light.
+// ── Banner (1280×480): name, the two numbers, the red Z. Dark and light.
+// On a phone GitHub shows it about 300 px wide (×0.23), so every line that matters is ≥ 44 px here.
 function banner(theme) {
   const dark = theme === "dark";
   const c = dark
-    ? { bg: "var(--ink)", fg: "var(--fg)", muted: "var(--muted)", label: "var(--muted)", accent: "var(--red-text)" }
-    : { bg: "var(--paper)", fg: "var(--ink)", muted: "var(--paper-muted)", label: "var(--paper-muted)", accent: "var(--red-deep)" };
+    ? { bg: "var(--ink)", fg: "var(--fg)", muted: "var(--muted)", label: "var(--muted)", accent: "var(--red-text)", rule: "var(--line)" }
+    : { bg: "var(--paper)", fg: "var(--ink)", muted: "var(--paper-muted)", label: "var(--paper-muted)", accent: "var(--red-deep)", rule: "rgb(10 9 8 / .14)" };
+  const stat = (num, what) =>
+    `<div><p class="display" style="font-size:74px;color:${c.accent}">${num}</p>
+      <p style="margin-top:10px;font-size:30px;line-height:1.1;color:${c.fg};font-weight:500;letter-spacing:-.01em">${what}</p></div>`;
   return {
-    w: 1280, h: 360,
-    html: `<div class="frame" style="width:1280px;height:360px;background:${c.bg};border-radius:24px">
-      <div class="glow" style="width:620px;height:620px;right:-60px;top:-130px;opacity:${dark ? 1 : 0.55}"></div>
-      ${z("right:92px;top:34px;height:292px;transform:rotate(-6deg);filter:drop-shadow(0 26px 40px rgb(120 0 0 / .45))")}
-      <div style="position:absolute;left:64px;top:62px;right:420px">
-        <p class="label" style="color:${c.label}"><span class="dot"></span>Founder &amp; solo engineer · Jaipur, India</p>
-        <h1 class="caps" style="font-size:86px;color:${c.fg};margin-top:28px">Aayush<br>Thakur</h1>
-        <p style="margin-top:26px;font-size:23px;line-height:1.35;color:${c.fg};font-weight:500;letter-spacing:-.01em">I build products people use.
-          <span style="color:${c.muted};font-weight:400">Zen-Z: live on Google Play, <b style="color:${c.accent};font-weight:600">150+ users in 2 days</b>.</span></p>
+    w: 1280, h: 480,
+    html: `<div class="frame" style="width:1280px;height:480px;background:${c.bg};border-radius:24px">
+      <div class="glow" style="width:640px;height:640px;right:-80px;top:-120px;opacity:${dark ? 1 : 0.55}"></div>
+      ${z("right:70px;top:60px;height:360px;transform:rotate(-6deg);filter:drop-shadow(0 26px 40px rgb(120 0 0 / .45))")}
+      <div style="position:absolute;left:64px;top:52px;right:400px">
+        <p class="label" style="font-size:21px;color:${c.label}"><span class="dot" style="width:13px;height:13px"></span>Founder of Zen-Z · live on Google Play</p>
+        <h1 class="caps" style="font-size:94px;color:${c.fg};margin-top:24px">Aayush<br>Thakur</h1>
+        <div style="display:flex;gap:56px;margin-top:30px;padding-top:24px;border-top:2px solid ${c.rule}">
+          ${stat("150+", "users in 2 days")}
+          ${stat("₹33K+", "revenue")}
+        </div>
       </div>
     </div>`,
   };
