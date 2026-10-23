@@ -16,12 +16,12 @@ Open to remote or Jaipur internships in full-stack, mobile and AI/product engine
   <tr>
     <td width="50%" valign="top">
       <a href="https://aayushthakur.vercel.app/work/zen-z"><img src="assets/work/zen-z-app.webp" alt="Zen-Z app: the home screen and the pick-a-game screen on two phones over a red background"></a>
-      <br><b>Zen-Z</b>: puts college students into small groups for cafés, dinners, movies and sports. React Native, a Next.js admin, Supabase and PayU. 150+ users in 2 days.
+      <br><b>Zen-Z</b>: puts college students into small groups for cafés, dinners, movies and sports. 150+ users in 2 days.
       <br><a href="https://play.google.com/store/apps/details?id=com.campussocial.app">Google Play</a> · <a href="https://github.com/aayush-t-exe/Zen-Z">Code</a> · <a href="https://aayushthakur.vercel.app/work/zen-z">Case study</a>
     </td>
     <td width="50%" valign="top">
       <a href="https://zen-z.site"><img src="assets/work/zen-z-site.webp" alt="zen-z.site on desktop and on a phone: a cream page with a glossy red Z hanging on a cord"></a>
-      <br><b>zen-z.site</b>: the marketing site, redesigned. A red Z on a cord you can pull, and 27 contract checks that keep payments and the legal pages working.
+      <br><b>zen-z.site</b>: the marketing site, redesigned. A red Z you can pull; 27 contract checks guard payments.
       <br><a href="https://zen-z.site">Live</a> · <a href="https://aayushthakur.vercel.app/work/zen-z#website">How it's built</a>
     </td>
   </tr>
