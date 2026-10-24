@@ -29,7 +29,7 @@ Open to remote or Jaipur internships in full-stack, mobile and AI/product engine
     <td width="50%" valign="top">
       <a href="https://aayushthakur.vercel.app/work/prelimsdaily"><img src="assets/work/prelimsdaily.webp" alt="PrelimsDaily: the Today, quiz and result screens on three phones"></a>
       <br><b>PrelimsDaily</b>: built in 1 day, with 72 tests. A UPSC daily-practice app: streaks, smart reminders, works offline.
-      <br><a href="https://github.com/aayush-t-exe/prelims-daily">Code</a> · <a href="https://aayushthakur.vercel.app/work/prelimsdaily">Case study</a>
+      <br><a href="https://github.com/aayush-t-exe/Prelims-Daily/releases/latest">Download (Android)</a> · <a href="https://github.com/aayush-t-exe/Prelims-Daily">Code</a> · <a href="https://aayushthakur.vercel.app/work/prelimsdaily">Case study</a>
     </td>
     <td width="50%" valign="top">
       <a href="https://aayushthakur.vercel.app"><img src="assets/work/portfolio.webp" alt="This portfolio on desktop and on a phone: red on black, with the Zen-Z app on a tilted phone"></a>
